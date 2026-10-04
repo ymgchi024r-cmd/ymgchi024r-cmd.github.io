@@ -3,62 +3,84 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>資格試験学習アプリ</title>
-<meta name="description" content="第1種衛生管理者・公害防止管理者などの資格試験向け学習アプリを開発しています。">
+<title>山口亮太 - 資格試験学習アプリ</title>
+<meta name="description" content="第1種衛生管理者・クリーニング師・公害防止管理者などの資格試験向け学習アプリを開発しています。">
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;background:#EDF5F6;color:#1f2d3d;line-height:1.8;margin:0;}
-.wrap{max-width:760px;margin:0 auto;padding:48px 20px 64px;}
-header{text-align:center;margin-bottom:48px;}
-h1{font-size:1.6rem;}
-header p{color:#5b6b7c;margin-top:10px;font-size:.95rem;}
-h2{font-size:1.1rem;margin:40px 0 16px;padding-left:12px;border-left:4px solid #2C6E8E;}
-.app{background:#fff;border-radius:12px;padding:22px;margin-bottom:18px;box-shadow:0 1px 3px rgba(0,0,0,.06);}
-.app h3{font-size:1.05rem;margin:0 0 8px;}
-.app p{color:#5b6b7c;font-size:.92rem;margin:0;}
-.links{margin-top:14px;display:flex;gap:12px;flex-wrap:wrap;}
-.links a{display:inline-block;padding:8px 16px;background:#2C6E8E;color:#fff;text-decoration:none;border-radius:6px;font-size:.85rem;}
-section p{color:#5b6b7c;font-size:.92rem;}
-a.plain{color:#2C6E8E;}
-footer{margin-top:56px;padding-top:24px;border-top:1px solid #d8e3e6;text-align:center;color:#5b6b7c;font-size:.82rem;}
+  :root{--bg:#EDF5F6;--ink:#1f2d3d;--sub:#5b6b7c;--accent:#2C6E8E;--card:#fff;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.8;}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 20px 64px;}
+  header{text-align:center;margin-bottom:48px;}
+  h1{font-size:1.6rem;letter-spacing:.02em;}
+  header p{color:var(--sub);margin-top:10px;font-size:.95rem;}
+  h2{font-size:1.1rem;margin:40px 0 16px;padding-left:12px;border-left:4px solid var(--accent);}
+  .app{background:var(--card);border-radius:12px;padding:22px;margin-bottom:18px;
+       box-shadow:0 1px 3px rgba(0,0,0,.06);}
+  .app h3{font-size:1.05rem;margin-bottom:8px;}
+  .app p{color:var(--sub);font-size:.92rem;}
+  .links{margin-top:14px;display:flex;gap:12px;flex-wrap:wrap;}
+  .links a{display:inline-block;padding:8px 16px;background:var(--accent);color:#fff;
+           text-decoration:none;border-radius:6px;font-size:.85rem;}
+  .links a:hover{opacity:.85;}
+  section p{color:var(--sub);font-size:.92rem;}
+  a.plain{color:var(--accent);}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid #d8e3e6;
+         text-align:center;color:var(--sub);font-size:.82rem;}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header>
-<h1>資格試験学習アプリ</h1>
-<p>スキマ時間で学べる、○×形式の一問一答アプリを開発しています。</p>
-</header>
 
-<h2>公開中のアプリ</h2>
+  <header>
+    <h1>資格試験学習アプリ</h1>
+    <p>スキマ時間で学べる、○×形式の一問一答アプリを開発しています。</p>
+  </header>
 
-<div class="app">
-<h3>第1種衛生管理者 一問一答問題集</h3>
-<p>第1種衛生管理者試験の過去問1,716問を収録。5科目に対応し、模擬試験モードや学習統計で進捗を管理できます。</p>
-<div class="links">
-<a href="https://apps.apple.com/jp/app/id6761746292">App Store</a>
-<a href="https://play.google.com/store/apps/details?id=io.github.ymgchi024r_cmd.twa">Google Play</a>
-</div>
-</div>
+  <h2>公開中のアプリ</h2>
 
-<div class="app">
-<h3>公害防止管理者 大気編 ○×チェック</h3>
-<p>公害防止管理者（大気関係）試験向けの学習アプリです。</p>
-<div class="links">
-<a href="https://github.com/ymgchi024r-cmd/kougai-taiki">詳細</a>
-</div>
-</div>
+  <div class="app">
+    <h3>第1種衛生管理者 一問一答問題集</h3>
+    <p>第1種衛生管理者試験の過去問1,716問を収録。5科目に対応し、模擬試験モードや学習統計で進捗を管理できます。</p>
+    <div class="links">
+      <a href="https://apps.apple.com/jp/app/id6761746292">App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=io.github.ymgchi024r_cmd.twa">Google Play</a>
+    </div>
+  </div>
 
-<h2>お問い合わせ</h2>
-<section>
-<p>アプリに関するご質問・ご要望は <a class="plain" href="mailto:ymgchi024r@gmail.com">ymgchi024r@gmail.com</a> までお寄せください。</p>
-</section>
+  <div class="app">
+    <h3>公害防止管理者 大気編 ○×チェック</h3>
+    <p>公害防止管理者（大気関係）試験向けの学習アプリです。</p>
+    <div class="links">
+      <a href="https://github.com/ymgchi024r-cmd/kougai-taiki">詳細</a>
+    </div>
+  </div>
 
-<h2>プライバシーポリシー</h2>
-<section>
-<p>本アプリは広告配信のため Google AdMob を利用しており、広告の最適化を目的とした識別子が取得される場合があります。取得した情報を個人を特定する目的で利用することはありません。詳細は各アプリ内のプライバシーポリシーをご確認ください。</p>
-</section>
+  <div class="app">
+    <h3>クリーニング師 一問一答</h3>
+    <p>クリーニング師試験（学科）の過去問を○×形式で収録。3科目に対応し、頻出問題・模擬試験モードで効率よく学習できます。（近日公開）</p>
+    <div class="links">
+      <a href="cleaning/privacy.html">プライバシーポリシー</a>
+    </div>
+  </div>
 
-<footer>&copy; 2026 Ryota Yamaguchi</footer>
+  <h2>お問い合わせ</h2>
+  <section>
+    <p>アプリに関するご質問・ご要望は
+      <a class="plain" href="mailto:ymgchi024r@gmail.com">ymgchi024r@gmail.com</a>
+      までお寄せください。</p>
+  </section>
+
+  <h2>プライバシーポリシー</h2>
+  <section>
+    <p>本アプリは広告配信のため Google AdMob を利用しており、広告の最適化を目的とした識別子が取得される場合があります。
+       取得した情報を個人を特定する目的で利用することはありません。詳細は各アプリ内のプライバシーポリシーをご確認ください。</p>
+  </section>
+
+  <footer>
+    &copy; 2026 Ryota Yamaguchi
+  </footer>
+
 </div>
 </body>
 </html>
